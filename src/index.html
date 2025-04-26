@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A_weatherAp</title>
+  </head>
+  <body>
+    <div class="weather-container">
+      <form action="">
+        <input
+          type="text"
+          name="inputCity"
+          id="city"
+          placeholder="Search for a City"
+          required
+        />
+        <button id="submit-btn">Submit</button>
+      </form>
+      <div id="loading" class="spinner" style="display: none;"></div>
+      <div class="overview-wrap">
+        <div class="location-wrap">
+          <h2 id="location"></h2>
+          <h1 id="temp"></h1>
+          <h3 id="condition"></h3>
+        </div>
+        <img src="#" alt="ICON" />
+      </div>
+      <div class="day-cycle">
+        <div class="sunrise-wrap">
+          <img src="#" alt="sunriseImg" />
+          <p id="sunrise"></p>
+        </div>
+        <div class="sunset-wrap">
+          <img src="#" alt="sunsetImg" />
+          <p id="sunset"></p>
+        </div>
+      </div>
+      <div class="humidity-wrap">
+        <img src="#" alt="humidityImg" />
+        <p id="humidity"></p>
+      </div>
+      <div class="precip-wrap">
+        <img src="#" alt="precipImg" />
+        <p id="precip"></p>
+      </div>
+      <div class="windspeed-wrap">
+        <img src="#" alt="windspeedImg" />
+        <p id="windspeed"></p>
+      </div>
+    </div>
+  </body>
+</html>
